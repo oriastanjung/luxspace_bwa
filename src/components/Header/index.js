@@ -7,6 +7,7 @@ function Header() {
         <div className="flex flex-stretch items-center">
           <div className="w-56 items-center flex">
             <img
+              className="invert md:filter-none"
               src="images/content/logo.png"
               alt="Luxspace | Fulfill your house with beautiful furniture"
             />
@@ -59,7 +60,7 @@ function Header() {
                   className="relative flex z-50 items-center justify-center w-8 h-8 text-black md:text-white focus:outline-none"
                 >
                   <svg
-                    className="fill-current"
+                    className="fill-current invert md:filter-none"
                     width="18"
                     height="17"
                     viewBox="0 0 18 17"
@@ -77,7 +78,7 @@ function Header() {
                   href="cart.html"
                 >
                   <svg
-                    className="fill-current"
+                    className="fill-current invert md:filter-none"
                     width="26"
                     height="24"
                     viewBox="0 0 26 24"

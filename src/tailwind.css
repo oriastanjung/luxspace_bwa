@@ -4,7 +4,10 @@
 @tailwind utilities;
 
 /* utils */
-
+.hero-video {
+  background-image: url("/public/images/content/image-section-1.png");
+  /* opacity: 15% !important; */
+}
 .grid {
   grid-auto-flow: row dense;
   grid-auto-rows: minmax(180px, auto);
